@@ -1,0 +1,27 @@
+.wrapper:not(.modal-visible) {
+    position: fixed;
+    left: 275px; /* Deve começar após o fim do sidebar */
+    width: calc(100% - 300px); /* Largura do restante da tela */
+    padding: 1rem; /* Espaçamento interno */
+    background-color: aquamarine;
+    border-radius: 16px;
+    margin-top: 6rem;
+    background-color: rgba(0, 0, 0, 0.18);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    height: 40%;
+}
+
+.header:not(.modal-visible) {
+    
+    margin-bottom: -1.5rem;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.title:not(.modal-visible) {
+    font-size: 2rem;
+}

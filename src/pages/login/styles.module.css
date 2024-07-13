@@ -1,0 +1,89 @@
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.containerLogin{
+   border-radius: 15px;
+   width:  22.688rem;
+   height: 24.563rem;
+   background-color: rgba(21, 180, 167, 0.18) ;
+   -webkit-backdrop-filter: blur(18px);
+   backdrop-filter: blur(18px);
+   box-shadow: rgb(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+   rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+   rgba(0, 0, 0, 0.3) 0px 30px 100px -20px;
+}
+
+
+.containerLogotitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.containerLogotitle> img{
+    margin-right: 1rem;
+}
+
+.titleService{
+    font-weight: 100;
+    color: black;
+}
+
+.forgetPass{
+    color: #081225;
+}
+
+.containerBtnForgetPass{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.containerBtnForgetPass >p{
+    margin-top: 1rem;
+}
+
+@media (max-width:780px) {
+    .mainContainer{
+        width: 180%;
+        height: 180vh;
+    }
+
+    .containerLogin{
+        width: 20.688rem;
+        height: 180vh;
+    }
+
+    .containerLogoTitle{
+        margin-top: 37px;
+        margin-bottom: 20px;
+    }
+    
+    .containerLogoTitle > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .containerLogoTitle > h1{
+        font-size: 14;
+    }
+
+    .containerInputs{
+        width: 20.288rem;
+        height: 20.563rem;
+        padding-left:4rem;
+    }
+
+    .containerBtnForgetPass{
+        margin-top: 39px;
+    }
+}

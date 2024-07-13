@@ -1,0 +1,40 @@
+.wrapper  {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+    overflow-y:auto;
+    max-width: 100%;
+    max-height: 250px;
+    margin-left: 10px;   
+
+
+}
+
+.wrapper > div {
+    margin-left: 15px;
+    margin-right:1rem;
+}
+
+.paragraph{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.card{
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 0.5rem;
+    width: 350px;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    border-radius: 8px;
+    background-color: chartreuse;
+    font-size: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
